@@ -25,7 +25,6 @@ sed -i '$a src-git diy https://github.com/wjz304/openwrt-packages' feeds.conf.de
 sed -i '$a src-git packages https://github.com/coolsnowwolf/packages' feeds.conf.default
 sed -i '$a src-git luci https://github.com/coolsnowwolf/luci' feeds.conf.default
 sed -i '$a src-git routing https://github.com/coolsnowwolf/routing' feeds.conf.default
-sed -i '$a src-git telephony https://git.openwrt.org/feed/telephony.git' feeds.conf.default
 
 
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
