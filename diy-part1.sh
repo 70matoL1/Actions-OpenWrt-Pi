@@ -21,7 +21,12 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git ing https://github.com/wjz304/openwrt-packages' feeds.conf.default
+sed -i '$a src-git diy https://github.com/wjz304/openwrt-packages' feeds.conf.default
+sed -i '$a src-git packages https://github.com/coolsnowwolf/packages' feeds.conf.default
+sed -i '$a src-git luci https://github.com/coolsnowwolf/luci' feeds.conf.default
+sed -i '$a src-git routing https://github.com/coolsnowwolf/routing' feeds.conf.default
+sed -i '$a src-git telephony https://git.openwrt.org/feed/telephony.git' feeds.conf.default
+
 
 #添加自定义插件链接（自己想要什么就github里面搜索然后添加）
 git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge  #主题-edge-动态登陆界面
