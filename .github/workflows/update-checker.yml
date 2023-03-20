@@ -14,6 +14,7 @@ name: Update Checker
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 on:
   workflow_dispatch:
@@ -50,7 +51,7 @@ jobs:
       with:
         token: ${{ secrets.ACTIONS_TRIGGER_PAT }}
         event-type: Source Code Update
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
     - name: Delete workflow runs
       uses: GitRML/delete-workflow-runs@main
