@@ -9,14 +9,6 @@
 # Description: Source code update checker
 #
 
-name: Update Checker
-
-
-
-on:
-  workflow_dispatch:
-#  schedule:
-#    - cron: 0 */18 * * *
 
 jobs:
   check:
