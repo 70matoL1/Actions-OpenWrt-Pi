@@ -56,3 +56,9 @@ jobs:
       with:
         retain_days: 1
         keep_minimum_runs: 1
+
+    - name: My action
+        env:
+          MY_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+      
