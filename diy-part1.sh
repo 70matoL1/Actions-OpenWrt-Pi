@@ -21,7 +21,6 @@ sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 sed -i '$a src-git kenzo https://github.com/kenzok8/openwrt-packages' feeds.conf.default
 sed -i '$a src-git small https://github.com/kenzok8/small' feeds.conf.default
-sed -i '$a src-git diy https://github.com/wjz304/openwrt-packages' feeds.conf.default
 sed -i '$a src-git haibo https://github.com/haiibo/openwrt-packages' feeds.conf.default
 
 
